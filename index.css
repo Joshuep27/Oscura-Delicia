@@ -1,0 +1,232 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+font-family: 'Raleway', sans-serif;
+}
+
+.contenedor{
+	padding:60px 0;
+	width: 90%;
+	max-width: 1000px;
+	margin: auto;
+	overflow: hidden;
+}
+.titulo{
+	color: #592E0B;
+	font-size: 35px;
+	text-align: center;
+	margin-bottom: 60px;
+}
+
+/*HEADER*/
+
+header{
+	width: 100%;
+	height: 700px;
+    background: linear-gradient(to right, hsla(313, 35%, 69%, 0.545), hsla(49, 35%, 78%, 0.597), hsla(213, 49%, 65%, 0.55)), url(img/portada3.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+	position: relative;
+}
+
+nav{
+	text-align: right;
+	padding: 40px 70px 0 0;
+}
+
+nav a{
+	color: #592E0B;
+    font-size: 150%;
+	font-weight: 300;
+	text-decoration: none;
+	margin-right: 10px;
+    font-weight: 160%;
+}
+
+nav a:hover{
+	text-decoration: underline;
+}
+
+header .textos-header{
+	display: flex;
+	height: 430px;
+	width: 100%;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	text-align: center;
+}
+
+.textos-header h1{
+	font-size: 80px;
+	color: #592E0B;
+    font-weight: 1000;
+    font-family: 'Libre Bodoni', serif;  
+    line-height: 200%;  
+}
+
+.textos-header h2{
+	font-size: 30px;
+	font-weight: 300;
+	color: #7c4521 ;
+    font-family: 'Zen Loop', cursive;
+}
+
+.wave{
+	position: absolute;
+	bottom: 0%;
+	width: 100%;
+}
+
+/*¿Quiénes somos?*/
+
+.subtitulo-quiemes-somos{
+    margin: 20px 0 10px 20px;
+}
+
+.segunda-parte{
+    margin-left: 30px;
+    text-align: justify;
+}
+
+.imagen-nosotros{
+    width: 30%;
+    height: 30%;
+}
+
+
+.contenedor-quienes-somos{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.texto-quienes-somos{
+    font-size: 20px;
+    margin-bottom: 10px;
+    text-align: justify;
+}
+
+/*MISION Y VISION*/
+
+.cards{
+	margin:20px 0 20px 0;
+	position: relative;
+}
+
+.cards .card1{
+	background: hsla(30, 33%, 51%, 0.399);
+	margin: 10px 0 40px 0;
+	display: flex;
+	width: 60%;
+	justify-content: center;
+	text-align: justify;
+	height: 60%;
+	margin: 10px 20px 10px 160px;
+	box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.6);
+	border-radius: 6px;
+}
+
+
+.cards .card2{
+	justify-content: right;
+	background: hsla(30, 33%, 51%, 0.399);
+	margin: 10px 0 10px 0;
+	display: flex;
+	width: 60%;
+	justify-content: center;
+	text-align: justify;
+	height: 60%;
+	margin: 30px 20px 10px 240px;
+	box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.6);
+	border-radius: 6px;
+}
+
+
+.cards .card1 img{
+    width: 30%;
+    height: 30%;
+	border-radius: 50%;
+	margin: 20px 20px 10px 20px;
+	object-fit: cover;
+    border: 2px solid #fff;
+}
+
+
+.cards .card2 img{
+    width: 30%;
+    height: 30%;
+	border-radius: 50%;
+	margin: 20px 20px 10px 20px;
+    object-fit: cover;
+    border: 2px solid #fff;
+}
+
+.card1 h4{
+	margin: 10px 0 0 ;
+}
+
+.card1 p{
+	margin: 10px 20px 10px 20px;
+}
+
+.card2 h4{
+	margin: 10px 0 0 ;
+}
+
+.card2 p{
+	margin: 10px 20px 10px 20px;
+}
+
+/*FOOTER*/
+
+footer{
+	background: #91765b;
+	padding: 40px 0 30px 0;
+	margin: auto;
+	overflow: hidden;
+	margin-top: 40px;
+}
+
+.contenedor-footer{
+	display: flex;
+	width: 90%;
+	justify-content: space-evenly;
+	margin: auto;
+	padding-bottom: 50px;
+	color: rgb(185, 185, 185);
+	border-bottom: 1px solid #ccc;
+}
+
+.content-foo{
+	text-align: center;
+}
+
+.content-foo p{
+ color: #000000;
+}
+
+.content-foo a{
+	text-decoration: none;
+	text-decoration-color:none ;
+	color: rgb(0, 0, 0);
+}
+
+.content-foo h4{
+	color: #fff;
+	border-bottom: 3px solid #008e00;
+	padding-bottom: 5px;
+	margin-bottom: 10px;
+}
+
+.content-foo h4{
+	text-align: center;
+}
+
+.titulo-final{
+	text-align: center;
+	margin-top: 15px;
+}
